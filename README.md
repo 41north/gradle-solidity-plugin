@@ -61,7 +61,7 @@ We welcome any kind of contribution or support to this project but before to do 
 
 Also, we are not only limited to technical contributions. Things that make us happy are:
 
-* Add a [GitHub Star](https://github.com/41north/athena/stargazers) to the project.
+* Add a [GitHub Star](https://github.com/41north/gradle-solidity-plugin/stargazers) to the project.
 * Tweet about this project.
 * Write a review or tutorial.
 
