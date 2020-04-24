@@ -1,11 +1,11 @@
-<h1 align="center">✨ Gradle Solidity Plugin ✨</h1>
+<h1 align="center">✨ Solidity Gradle Plugin ✨</h1>
 
 <p align="center">
-  <a href="https://github.com/41north/gradle-solidity-plugin/workflows/KtLint/badge.svg">
+  <a href="https://github.com/41north/solidity-gradle-plugin/workflows/KtLint/badge.svg">
     <img alt="KtLint" height="20px" src="https://github.com/41north/gradle-solidity-plugin/workflows/KtLint/badge.svg" />
   </a>
-  <a href="https://img.shields.io/github/license/41north/gradle-solidity-plugin?style=flat-square">
-    <img alt="Gradle Solidity Plugin License" height="20px" src="https://img.shields.io/github/license/41north/gradle-solidity-plugin?style=flat-square" />
+  <a href="https://img.shields.io/github/license/41north/solidity-gradle-plugin?style=flat-square">
+    <img alt="Gradle Solidity Plugin License" height="20px" src="https://img.shields.io/github/license/41north/solidity-gradle-plugin?style=flat-square" />
   </a>
 </p>
 
@@ -13,7 +13,7 @@
     A <b>Gradle plugin</b> that aids in compiling <a href="https://solidity.readthedocs.io/en/v0.6.6/">Solidity</a> sources with <a href="https://www.docker.com/">Docker</a>, written in <a href="https://kotlinlang.org">Kotlin</a>.
 </p>
 
-## Introduction
+## 💡 Introduction
 
 This plugin was developed originally for [Exflo](https://github.com/41north/exflo). As current existing solutions are either old or relies on `groovy`, we thought it might be useful as this version is written using gradle's `kotlin-dsl`. 
 
@@ -61,7 +61,7 @@ We welcome any kind of contribution or support to this project but before to do 
 
 Also, we are not only limited to technical contributions. Things that make us happy are:
 
-* Add a [GitHub Star](https://github.com/41north/gradle-solidity-plugin/stargazers) to the project.
+* Add a [GitHub Star](https://github.com/41north/solidity-gradle-plugin/stargazers) to the project.
 * Tweet about this project.
 * Write a review or tutorial.
 
