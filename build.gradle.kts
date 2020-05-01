@@ -29,7 +29,7 @@ apply(plugin = "io.spring.dependency-management")
 apply(from = "${project.rootDir}/gradle/versions.gradle")
 
 group = "dev.north.fortyone.gradle"
-version = "0.1.0"
+version = "0.1.1"
 
 repositories {
   mavenLocal()

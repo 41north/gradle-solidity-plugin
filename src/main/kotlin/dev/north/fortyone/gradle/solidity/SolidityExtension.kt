@@ -29,6 +29,11 @@ open class SolidityExtension internal constructor(
 ) {
 
   /**
+   * Attaches to build task to be executed automatically whenever build task is called.
+   */
+  val attachToBuild: Property<Boolean> = objectFactory.property { set(true) }
+
+  /**
    * The executable command to use.
    */
   val dockerCommand: Property<String> = objectFactory.property { set("docker run --rm") }

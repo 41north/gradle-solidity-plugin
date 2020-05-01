@@ -31,6 +31,7 @@ Once the plugin is applied, you can configure it with the following options (def
 
 ```groovy
 solidity {
+    attachToBuild.set(true)
     command.set("docker run --rm")
     solidityImage.set("ethereum/solc:stable")
     evmVersion.set(EVMVersion.ISTANBUL)

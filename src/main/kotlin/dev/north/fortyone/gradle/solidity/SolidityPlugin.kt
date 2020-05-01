@@ -100,6 +100,8 @@ open class SolidityPlugin @Inject constructor(
     }
 
     // Make buildSolidity task dependant of generic build
-    project.tasks.getByName("build").dependsOn(compileTask)
+    if (extension.attachToBuild.get()) {
+      project.tasks.getByName("build").dependsOn(compileTask)
+    }
   }
 }
