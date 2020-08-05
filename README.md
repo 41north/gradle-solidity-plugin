@@ -1,8 +1,8 @@
 <h1 align="center">✨ Solidity Gradle Plugin ✨</h1>
 
 <p align="center">
-  <a href="https://github.com/41north/solidity-gradle-plugin/workflows/KtLint/badge.svg">
-    <img alt="KtLint" height="20px" src="https://github.com/41north/gradle-solidity-plugin/workflows/KtLint/badge.svg" />
+  <a href="https://github.com/41north/solidity-gradle-plugin/workflows/build/badge.svg">
+    <img alt="Build Status" height="20px" src="https://github.com/41north/solidity-gradle-plugin/workflows/build/badge.svg" />
   </a>
   <a href="https://img.shields.io/github/license/41north/solidity-gradle-plugin?style=flat-square">
     <img alt="Gradle Solidity Plugin License" height="20px" src="https://img.shields.io/github/license/41north/solidity-gradle-plugin?style=flat-square" />
@@ -46,13 +46,6 @@ solidity {
 ```
 
 A `solidity` source set will be available like a regular `java` or `kotlin`, so you can add your source code like usual.
-
-## 🗒️ Roadmap
-
-* Add proper tests
-* Handle properly allow paths
-* Allow option to add extra arguments to solidity compiler
-* ...
 
 ## 💻 Contribute
 
